@@ -1,6 +1,6 @@
 window.addEventListener("scroll", function() {
     const distance = window.scrollY;
-    this.document.querySelector("header").style.transform = `translateY(${distance *
+    this.document.querySelector("main").style.transform = `translateY(${distance *
     1} px)`;
     this.document.querySelector(
         ".MountainImage"
